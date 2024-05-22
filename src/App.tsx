@@ -1,11 +1,11 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import QuizScreen from './pages/QuizScreen'
+import UseState from './component/UseState'
 
 function App() {
   return (
     <>
-    <QuizScreen/>
+    <UseState/>
     </>
   );
 }

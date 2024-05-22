@@ -27,15 +27,15 @@ function UseStates(){
         
         <>
             {/* {console.log("work")} */}
-            <h1>{value}</h1>
-            <h1>{valueTwo}</h1>
-            <button 
+            {/* <h1>{value}</h1>
+            <h1>{valueTwo}</h1> */}
+            {/* <button 
             onClick={()=>
                 {newValue(value*2)
                     console.log("new")
                     newValueTwo(valueTwo*2)
                 }}
-            >Add</button>
+            >Add</button> */}
             <hr></hr>
             {txt}
             <input type="text" onChange={(e)=>setTxt(e.target.value)} />
