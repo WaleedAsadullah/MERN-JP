@@ -1,11 +1,11 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import QuizScreen from './pages/QuizScreen'
+import ApiHandling from './pages/ApiHandling'
 
 function App() {
   return (
     <>
-    <QuizScreen/>
+    <ApiHandling/>
     </>
   );
 }
