@@ -1,11 +1,11 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ApiHandling from './pages/ApiHandling'
+import AppRouter from './config/AppRouter';
 
 function App() {
   return (
     <>
-    <ApiHandling/>
+    <AppRouter/>
     </>
   );
 }
