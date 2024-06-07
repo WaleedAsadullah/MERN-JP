@@ -5,12 +5,12 @@ import SingleProduct from "../pages/SingleProduct";
 
 export default function AppRouter(){
     return <>
-    <BrowserRouter>
+    {/* <BrowserRouter>
     <Routes>
         <Route path="products" element={<ShopPage/>}/>
         <Route path="products/:id" element={<SingleProduct/> }/>
         <Route path="api" element={<ApiHandling/>}/>
     </Routes>
-    </BrowserRouter>
+    </BrowserRouter> */}
     </>
 }

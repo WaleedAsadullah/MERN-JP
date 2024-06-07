@@ -1,11 +1,11 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import AppRouter from './config/AppRouter';
+import ShopPage from './pages/ShopPage';
 
 function App() {
   return (
     <>
-    <AppRouter/>
+    <ShopPage/>
     </>
   );
 }
